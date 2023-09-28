@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Divider, SimpleGrid } from '@chakra-ui/react'
 import { useSelector } from 'react-redux'
-import Item from "./Item";
+import Product from "./Product";
 import Reciept from "./Receipt";
 
 
@@ -41,7 +41,7 @@ function Table( { products }) {
             templateColumns="repeat(auto-fill, minmax(200px, 1fr))"
             >
                 {items.map((item) => (
-                    <Item item={item} key={item.id}/>
+                    <Product item={item} key={item.id}/>
                 ))}
             </SimpleGrid>
             <Reciept />
