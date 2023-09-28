@@ -12,8 +12,8 @@ import {
     return (
       <Container
         maxW="container.xl"
-        bg="green.400"
-        color="#262626"
+        bg="blue.600"
+        color="white"
         borderRadius="10"
         padding={8}
         marginTop={5}
@@ -23,28 +23,28 @@ import {
             <IconButton
               target="_blank"
               as="a"
-              href="https://www.linkedin.com/in/sefa-sariteke-787b8b129/"
+              href="https://www.linkedin.com/in/furkan-karakus/"
               aria-label="LinkedIn"
               icon={<FaLinkedin fontSize="1.25rem" />}
             />
             <IconButton
               target="_blank"
               as="a"
-              href="https://github.com/msefaa"
+              href="https://github.com/m1erla"
               aria-label="GitHub"
               icon={<FaGithub fontSize="1.25rem" />}
             />
             <IconButton
               target="_blank"
               as="a"
-              href="https://twitter.com/mssrtk"
+              href="https://twitter.com/FurkanMierla"
               aria-label="Twitter"
               icon={<FaTwitter fontSize="1.25rem" />}
             />
           </ButtonGroup>
         </Stack>
         <Text fontSize={10} color="subtle">
-          &copy; {new Date().getFullYear()} Created By Sefa SARITEKE
+          &copy; {new Date().getFullYear()} Created By m1erla
         </Text>
       </Container>
     );
