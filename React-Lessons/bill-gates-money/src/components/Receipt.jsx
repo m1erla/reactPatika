@@ -14,7 +14,7 @@ import {
 import { useSelector } from 'react-redux';
 
 function Receipt() {
-    const items = useSelector((state) => state.product.items);
+    const items = useSelector((state) => state.products.items);
     const initialMoney = useSelector((state) => state.products.initialMoney);
     const budget = useSelector((state) => state.products.budget);
     const filtered = items.filter((item) => item.count > 0);

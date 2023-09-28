@@ -5,10 +5,10 @@ import Product from "./Product";
 import Reciept from "./Receipt";
 
 
-function Table( { products }) {
-    const items = useSelector(products.items);
-    const budget = useSelector(products.budget);
-    const basket = useSelector(products.basket);
+function Table() {
+    const items = useSelector((state) => state.products.items);
+    const budget = useSelector((state) => state.products.budget);
+    const basket = useSelector((state) => state.products.basket);
     const editBudget = Number(budget).toLocaleString();
 
     console.log({budget});
