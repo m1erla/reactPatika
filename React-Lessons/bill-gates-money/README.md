@@ -1,10 +1,23 @@
 ![](public/bill-ss.png)
+![](public/bill-ss2.png)
 
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Dependiencies
+
+```
+npm install
+```
+
+# Technologies
+
+```
+React-Redux
+JavaScript
+```
 ## Available Scripts
 
 In the project directory, you can run:
