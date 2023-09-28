@@ -1,0 +1,268 @@
+.header {
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+    margin-right: 6px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    margin-left: auto;
+    
+  }
+
+.pic img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+  
+  .headerli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 4px 4px;
+    text-decoration: none;
+    float: right;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+
+  }
+  
+  .headerli a:hover {
+    text-decoration: underline;
+    
+  }
+  
+  .container {
+    text-align: center;
+    margin: 100px;
+    
+  }
+  
+  .search-area {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -87px;
+    width: 582px;
+    border-radius: 24px;
+    box-shadow: 1px 2px 2px 2px rgba(231, 220, 220, 0.72);
+    
+  }
+  
+  .search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+ 
+  }
+  
+  .search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    position: relative;
+    
+ 
+  }
+  
+  .search-img {
+    display: flex;
+    /* align-items: center; */
+    padding-right: 13px;
+    margin-top: 5px;
+    /* margin-right: -100px; */
+    height: 25px;
+    width: 15px;
+    
+  }
+
+  
+  .search-img span {
+    color: #ffffff;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+    
+    
+  }
+  
+  .input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+   
+   
+  }
+  
+  .input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display: block;
+    margin-left: -254px;
+    position: relative;
+   
+  }
+  
+  .input {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -68px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    border: none;
+    
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .voice-img {
+    display: flex;
+    padding-right: 5px;
+    width: 0px;
+    height: 25px;
+    margin-left: 62.5%;
+    margin-top: -4.4%;
+    
+    
+  }
+  
+  .googlesearch {
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+  }
+  .google-search-update{
+    background-color: #cecccc73;
+    border: 1px solid #747373;
+    border-radius: 4px;
+    color: #000000;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+  }
+  
+  .feelinglucky {
+    background-color: #cecccc73;
+    border: 1px solid #747373;
+    border-radius: 4px;
+    color: #000000;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .footerli {
+    float: left;
+    list-style-type: none;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #414141;
+    text-align: center;
+    padding: 24px 36px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .topnav-right {
+    float: right;
+  }
