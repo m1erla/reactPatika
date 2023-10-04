@@ -10,7 +10,7 @@ function Search() {
 	const dispatch = useDispatch();
 	const theme = useSelector((state) => state.weather.darkmode);
 	const defaultCity = {
-		value: "39.766193 30.526714",
+		value: "37.000000 35.321714",
 	};
 	dispatch(getWeatherCity(defaultCity));
 	dispatch(getForecastHourly(defaultCity));

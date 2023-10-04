@@ -31,7 +31,7 @@ function Footer() {
 	return (
 		<div className="footer">
 			<div className="darkmode" onClick={themeHandler}>
-				{theme ? "Switch Light Mode" : "Switch Dark Mode"}
+				{theme ? "Light Mode" : "Dark Mode"}
 			</div>
 			<div className="icons">
 				<FontAwesomeIcon icon={faTwitter} size="2x" onClick={() => openUrl("twitter")} />
